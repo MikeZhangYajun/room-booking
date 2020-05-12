@@ -13,10 +13,6 @@ public class TimeBlock implements Serializable{
 
 	private Calendar startTime, endTime;
 	
-	
-	// Dave Houtman(2020). Assignment 1 Version 1.11 [PDF Document].
-	// Retrieved from
-	// https://brightspace.algonquincollege.com/d2l/le/content/227335/viewContent/3710502/View
 	public TimeBlock() {
 		this(new Calendar.Builder().set(Calendar.HOUR, 8).build(),
 				new Calendar.Builder().set(Calendar.HOUR, 23).build());
